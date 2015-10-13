@@ -1,0 +1,24 @@
+16:51:50 INFO  : Processing command line option -hwspec C:/Xilinx/Vivado/2014.2/progetti/WP1_SPI/WP1_SPI.sdk/design_1.hdf.
+17:28:35 ERROR : The Hardware Project referenced by this BSP (adc_config_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+17:31:08 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+17:31:10 ERROR : Unexpected error while launching program.
+java.lang.NullPointerException
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:294)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+17:35:50 ERROR : The Hardware Project referenced by this BSP (adc_config_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+14:58:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:21:57 INFO  : Processing command line option -hwspec C:/Xilinx/Vivado/2014.2/progetti/WP1_SPI/WP1_SPI.sdk/design_1.hdf.
+20:21:58 INFO  : Checking for hwspec changes in the project design_1_hw_platform_0.
+20:22:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1444669690473,  Project:1444228939943
+20:22:00 INFO  : The hardware specification for project 'design_1_hw_platform_0' is different from C:/Xilinx/Vivado/2014.2/progetti/WP1_SPI/WP1_SPI.sdk/design_1.hdf.
+20:22:00 INFO  : Copied contents of C:/Xilinx/Vivado/2014.2/progetti/WP1_SPI/WP1_SPI.sdk/design_1.hdf into \design_1_hw_platform_0\system.hdf.
+20:22:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:22:01 INFO  : Clearing existing target manager status.
+20:22:03 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:22:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

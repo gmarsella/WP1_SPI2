@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="4">
+	<CompatParts>
+	</CompatParts>
+	<PortProps>
+		<Port Name="SPI_MOSI" OffChipTerm="NONE"/>
+		<Port Name="SPI_SCLK" OffChipTerm="NONE"/>
+		<Port Name="SPI_SS" OffChipTerm="NONE"/>
+	</PortProps>
+</Compat>
+
